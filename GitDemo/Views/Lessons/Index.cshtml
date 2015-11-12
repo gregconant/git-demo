@@ -1,0 +1,15 @@
+﻿@model System.Collections.Generic.List<string>
+
+@section Scripts{
+    @Scripts.Render("~/bundles/knockout")
+    @Scripts.Render("~/bundles/app")
+}
+
+
+<ul>
+   @foreach (var lesson in Model)
+   {
+       <li>lesson</li>
+   }
+
+</ul>
