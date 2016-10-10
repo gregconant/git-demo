@@ -11,12 +11,8 @@ namespace GitDemo.Controllers
         // GET: Annotations
         public ActionResult Index()
         {
-<<<<<<< HEAD
-            var annotationsToReturn = new List<string> {"Annotation 1", "Annotation 2", "Annotation 3"};
-=======
             var firstAnnotation = "Annotation 1";
             var annotationsToReturn = new List<string> {firstAnnotation, "Annotation 2", "Annotation 3", "Annotation 4"};
->>>>>>> feat-testing-squash-commits
             return View(annotationsToReturn);
         }
 
