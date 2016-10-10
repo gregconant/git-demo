@@ -11,7 +11,8 @@ namespace GitDemo.Controllers
         // GET: Annotations
         public ActionResult Index()
         {
-            return View(new List<string> { "Annotation 1", "Annotation 2", "Annotation 31"});
+            var annotationsToReturn = new List<string> {"Annotation 1", "Annotation 2", "Annotation 31"};
+            return View(annotationsToReturn);
             
         }
 
