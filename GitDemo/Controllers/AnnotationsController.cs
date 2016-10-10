@@ -13,7 +13,6 @@ namespace GitDemo.Controllers
         {
             var annotationsToReturn = new List<string> {"Annotation 1", "Annotation 2", "Annotation 31"};
             return View(annotationsToReturn);
-            
         }
 
         // GET: Annotations/Details/5
